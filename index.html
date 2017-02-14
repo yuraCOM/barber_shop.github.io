@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>БарберШоп "Бородинский"</title>
+<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--main_header-->
+  <header class="main_header">
+  	<div class="container">
+      <nav class="main_nav">
+      	<ul>
+          <li>
+          	<a href="#">Информация</a>
+          </li>
+          <li>
+          	<a href="#">Новости</a>
+          </li>
+          <li>
+          	<a href="barber_shop_price.html">Прайс-лист</a>
+            <div class="info_txt info_absolute">
+              <p>след страница<br>
+                жми Прайс!
+              </p>
+            </div>
+          </li>
+          <li>
+          	<a href="barber_shop_shop_in.html">Магазин</a>
+          </li>
+          <li>
+          	<a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user_enter">
+        <div class="login">
+          <img src="img/enter.png" alt="" />
+          <a href="#">Вход</a>
+        </div>
+        <div class="info_txt">
+          <p>Скрытая форма<br>
+            жми ВХОД!
+          </p>
+      </div>
+    </div>
+  </header><!--/main_header-->
+  <main class="container "><!--main-->
+    <div class="logo">
+      <img src="img/logo.png" width="368" height="204" alt="БарберШоп Бородинский">
+    </div>
+    <!-- feature -->
+    <div class="feature clearfix">
+    	<div class="feature_item">
+          <b class="feature_name">БЫСТРО</b><br>
+          <b class="romb"></b>
+          <p>Мы делаем свою работу быстро!! Два часа пролетят не заметно
+          и вы счасливый обладатель новой стрижки-минутки!</p>
+        </div>
+        <div class="feature_item">
+          <b class="feature_name">КРУТО</b><br>
+            <b class="romb"></b>
+          <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ</p>
+        </div>
+        <div class="feature_item">
+          <b class="feature_name">ДОРОГО</b><br>
+            <b class="romb"></b>
+          <p>НАШИ МАСТЕРА - ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕННЫЙ СТАТУС?</p>
+        </div>
+    </div><!--/ feature -->
+    <!--index_content 1 -->
+    <div class="index_content clearfix">
+      <div class="index_content_left"> <!--index_content_left NEWS -->
+      	<h2 class="index_content_title">Новости</h2>
+          <ul>
+            <li>
+              <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ<br> МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+              <time datetime="2016-10-16">16 октября 2016г.</time>
+            </li>
+            <li>
+              <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДАТЕЛЬ МНОЖЕСТВА ТИТУЛОВ<br> И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+              <time datetime="2016-10-30">30 октября 2016г.</time>
+            </li>
+          </ul>
+          <a class="btn" href="#">Все новости</a>
+      </div><!--/index_content_left -->
+      <div class="index_content_right"><!--index_content_right FOTO -->
+        <h2 class="index_content_title">Фотографии</h2>
+        <div class="gallery">
+          <figure class="gallery_content">
+            <img src="img/gallery01.png" width="286" height="164" alt="">
+          </figure>
+          <button class="btn gallery_prew disabled">Назад</button>
+          <button class="btn gallery_next">Вперед</button>
+        </div>
+      </div><!--/index_content_right -->
+    </div><!--/index_content 1 -->
+
+    <!--index_content 2 -->
+    <div class="index_content clearfix">
+      <div class="index_content_left"> <!--index_content_left Контакты  -->
+      	<h2 class="index_content_title">Контактная Информация</h2>
+          <p class="place_bs">БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+            АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+            ТЕЛЕФОН: +7 (812) 666-02-66
+          </p>
+          <p class="time_work">ВРЕМЯ РАБОТЫ:<br>
+            ПН - ПТ: С 10:00 ДО 22:00<br>
+            СБ - ВС: С 10:00 ДО 19:00
+          </p>
+          <a class="btn btn_how map_open" href="#">Как проехать?</a>
+          <div class="info_txt info_absolute">
+            <p>Скрытая форма<br>
+              жми Как проехать?!
+            </p>
+          </div>
+          <a href="#" class="btn">Обратная Связь</a>
+      </div>
+
+      <!--/index_content_left контакты -->
+      <div class="index_content_right"><!--index_content_right Записаться -->
+        <h2 class="index_content_title reg_h2">Записаться</h2>
+        <p class="date_rec">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+        <form class="appointment_form" action="https://echo.htmlacademy.ru" method="post">
+          <input type="text" name="data" value="" placeholder="Дата">
+          <input type="text" name="time" value="" placeholder="Время">
+          <input type="text" name="name" value="" placeholder="Ваше Имя">
+          <input type="tel" name="phone" value="" placeholder="Телефон">
+          <button class="btn" type="submit">Отправить</button>
+        </form>
+      </div><!--/index_content_right Записаться -->
+    </div><!--/index_content 2 -->
+  </main><!--/main-->
+  <footer class="main_footer">
+    <div class="container clearfix">
+      <div class="contact">
+        <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+          АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+          <a href="https://goo.gl/maps/M4w2utd3iHA2" target="_blank">КАК НАС НАЙТИ?</a><br>
+          ТЕЛЕФОН: +7 (812) 666-02-66
+		      </p>
+          <div class="info_txt info_absolute">
+            <p>Скрытая форма жми КАК НАС НАЙТИ?
+            </p>
+          </div>
+      </div>
+      <div class="social">
+        <p>Давайте Дружить!</p>
+        <a href="#" class="social_btn social_btn_vk"></a>
+        <a href="#" class="social_btn social_btn_fb"></a>
+        <a href="#" class="social_btn social_btn_inst"></a>
+      </div>
+      <div class="copyright">
+        <p>РАЗРАБОТАНО:</p>
+        <a href="#" class="btn ">HTML Academy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!--  modal скрытая форма вход-->
+  <div class="modal">
+    <div class="modal_close">close X</div>
+    <div class="modal_content">
+      <h1 class="">ЛИЧНЫЙ КАБИНЕТ</h1>
+      <p class="">ВВЕДИТЕ ПОЖАЛУЙСТА СВОЙ ЛОГИН И ПАРОЛЬ.</p>
+      <form class="login_form" action="https://echo.htmlacademy.ru" method="post">
+      <div class="log">
+        <input class="log_pass_field" type="text" name="login" placeholder="ЛОГИН" required="required">
+        <i class="icon_user_img"></i>
+      </div>
+      <div class="password_inn">
+        <input class="log_pass_field" type="text" name="password" value="" placeholder="ПАРОЛЬ">
+        <i class="icon_password_img"></i>
+      </div>
+        <input id="remember_check" class="remember_me"  type="checkbox" name="remember" value="">
+                <label for="remember_check">ЗАПОМНИТЕ МЕНЯ</label>
+        <a href="#" class="restore">Я забыл пароль!</a>
+        <button class="btn" type="submit">ВОЙТИ</button>
+      </form>
+    </div><!-- modal_content поля ввода  -->
+  </div> <!--  /modal скрытая форма вход-->
+
+  <!-- map popup -->
+  <div class="modal_map">
+    <div class="modal_map_close">close X</div>
+    <div class="modal_map_content">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3106.2790578674385!2d-77.05845558510569!3d38.87185677957451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b6df29ed2c27%3A0xaf83d0f8c013532f!2z0J_QtdC90YLQsNCz0L7QvQ!5e0!3m2!1sru!2sua!4v1479836469731" width="766" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div><!-- modal_content -->
+  </div>
+  <!--/map popup  -->
+  <script src="js/script.js"></script>
+</body>
+</html>
